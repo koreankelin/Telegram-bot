@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# .gitignore 내용
+.env
+node_modules/
+.DS_Store
+>>>>>>> 10e004d (첫 번째 버전 업로드)
