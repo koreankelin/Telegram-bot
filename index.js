@@ -99,7 +99,7 @@ bot.on('photo', async (msg) => {
 
   try {
     // 그룹으로 사진 전송 (토픽 없음)
-    await bot.sendPhoto(TARGET_GROUP+"/461", photoId, {
+    await bot.sendPhoto(TARGET_GROUP, photoId, {
       caption: `📌 MFY: ${selectedAlley}\n👤 User: ${username}\n🕒 Vaqt: ${new Date().toLocaleString()}`
     });
 
